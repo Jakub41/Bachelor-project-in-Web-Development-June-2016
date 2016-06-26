@@ -1,0 +1,12 @@
+How to install miniPHP Project in localhost(XAMPP)
+============================================================
+01. copy the whole project to 'htdocs' directory
+02. find the .sql file in 'htdocs/recipe/public/DOCs/recipe.sql'
+03. create a new database 'recipe' in 'localhost/phpMyAdmin'
+04. import the .sql file into that database.
+05. mySQL default user name is 'root' with no Password.
+06. If you have different user name or password then follow the rules below
+07. find the 'config.php' file in 'recipe/application/config' directory
+08. Edit "define('DB_USER', 'root');" with user username
+09. Edit "define('DB_PASS', '');" with your password.
+10. You are done. Good job. Speciba.
